@@ -1,8 +1,7 @@
-// import Say from './Say';
-import Counter from "./Counter";
+import EventPractice from './EventPractice';
 
 const App = () => {
-  return <Counter />;
+  return <EventPractice />;
 };
 
 export default App;
