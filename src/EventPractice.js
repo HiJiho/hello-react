@@ -5,24 +5,18 @@ class EventPractice extends Component {
     message: '', // state 초깃값 설정
   };
 
-  constructor(props) { // 함수 바인딩하기
-    super(props);
-    this.handleChange = this.handleChange.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleChange(e) {
+  handleChange = (e) => {
     this.setState({
       message: e.target.value,
     });
-  }
+  };
 
-  handleClick() {
+  handleClick = () => {
     alert(this.state.message);
     this.setState({
       message: '',
     });
-  }
+  };
 
   render() {
     return (

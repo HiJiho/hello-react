@@ -1,7 +1,7 @@
 import EventPractice from './EventPractice';
 
 const App = () => {
-  return <EventPractice />;
+  return <EventPractice name={'jiho'} />;
 };
 
 export default App;
