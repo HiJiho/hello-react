@@ -1,7 +1,7 @@
-import EventPractice from './EventPractice';
+import ValidationSample from './ValidationSample';
 
 const App = () => {
-  return <EventPractice name={'jiho'} />;
+  return <ValidationSample />;
 };
 
 export default App;
