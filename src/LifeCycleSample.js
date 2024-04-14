@@ -6,7 +6,7 @@ class LifeCycleSample extends Component {
     color: null,
   };
 
-  myRef = null; // ref를 설정할 부분
+  myRef = null; // ref를 설정할 부분, h1 태그의 스타일 정보를 얻는 데 사용
 
   //! 마운트 시 호출되는 메서드들 시작 ==============================
   // 컴포넌트 생성자 메서드
